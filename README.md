@@ -72,19 +72,8 @@ Nome: Caneta
 
 → "Erro: Já existe um produto com este nome."
 
-# Teste 3 - Atualização Parcial
 
-
-Atualizar produto
-ID: 1
-
-Nova quantidade: 45
-
-Novo preço: (vazio)
-
-→ "Produto atualizado com sucesso!"
-
-# Teste 4 - Remoção com Confirmação
+# Teste 3 - Remoção com Confirmação
 
 
 Remover produto
@@ -94,7 +83,7 @@ Tem certeza? (s/n): s
 
 → "Produto removido com sucesso!"
 
-# Teste 5 - Tratamento de Erros
+# Teste 4 - Tratamento de Erros
 
 
 Adicionar novo produto
