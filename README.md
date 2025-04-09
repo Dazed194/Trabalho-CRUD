@@ -51,4 +51,72 @@ Atualização parcial	Usamos verificações is not None
 
 Listagem desorganizada	Implementamos formatação com str.format()
 
+# Exemplos de Testes Realizados
+# Teste 1 - Cadastro Válido
+
+Adicionar novo produto
+
+Nome: Caneta
+
+Quantidade: 50
+
+Preço: 1.20
+
+→ "Produto adicionado com sucesso!"
+
+# Teste 2 - Tentativa de Nome Repetido
+
+
+Adicionar novo produto
+Nome: Caneta
+
+→ "Erro: Já existe um produto com este nome."
+
+# Teste 3 - Atualização Parcial
+
+
+Atualizar produto
+ID: 1
+
+Nova quantidade: 45
+
+Novo preço: (vazio)
+
+→ "Produto atualizado com sucesso!"
+
+# Teste 4 - Remoção com Confirmação
+
+
+Remover produto
+ID: 1
+
+Tem certeza? (s/n): s
+
+→ "Produto removido com sucesso!"
+
+# Teste 5 - Tratamento de Erros
+
+
+Adicionar novo produto
+Nome: Lapis
+
+Quantidade: -10
+
+→ "Erro: Quantidade deve ser positiva."
+
+# Como Executar
+
+    Salve o código como estoque.py
+
+    Execute no terminal:
+    
+    python estoque.py
+
+    Use o menu interativo para testar todas as funcionalidades
+
+
+# Alunos: [Murilo Silva Vilarouca, Joao Victor carvalho]
+
+
+
 Atualização parcial	Usamos verificações is not None
