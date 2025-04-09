@@ -2,9 +2,9 @@
 
 
 
-#Explicação do Funcionamento
+# Explicação do Funcionamento
 
-#O sistema foi desenvolvido em Python usando SQLite para armazenamento local. O código está organizado em funções específicas:
+# O sistema foi desenvolvido em Python usando SQLite para armazenamento local. O código está organizado em funções específicas:
 
     Funções de Banco de Dados:
 
@@ -29,7 +29,7 @@
         main(): Controla o fluxo principal
 
 
-Tratamento de Erros
+# Tratamento de Erros
 
     Nomes duplicados (campo UNIQUE)
 
@@ -42,10 +42,9 @@ Tratamento de Erros
     Confirmação antes de deletar
 
 
-#Dificuldades e Soluções
-
-#Problema	Solução:
-
-#Dados não persistiam	Adicionamos conn.commit()
+# Problemas e Soluções
+Dados não persistiam	Adicionamos conn.commit()
+Listagem desorganizada	Implementamos formatação com str.format()
+Atualização parcial	Usamos verificações is not None
 #Listagem desorganizada	Implementamos formatação com str.format()
 #Atualização parcial	Usamos verificações is not None
