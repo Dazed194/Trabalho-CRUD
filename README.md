@@ -44,7 +44,11 @@
 
 # Problemas e Soluções
 Dados não persistiam	Adicionamos conn.commit()
+
 Listagem desorganizada	Implementamos formatação com str.format()
+
 Atualização parcial	Usamos verificações is not None
-#Listagem desorganizada	Implementamos formatação com str.format()
-#Atualização parcial	Usamos verificações is not None
+
+Listagem desorganizada	Implementamos formatação com str.format()
+
+Atualização parcial	Usamos verificações is not None
