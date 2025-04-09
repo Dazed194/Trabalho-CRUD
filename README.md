@@ -51,6 +51,8 @@ Atualização parcial	Usamos verificações is not None
 
 Listagem desorganizada	Implementamos formatação com str.format()
 
+Atualização parcial	Usamos verificações is not None
+
 # Exemplos de Testes Realizados
 # Teste 1 - Cadastro Válido
 
@@ -106,6 +108,3 @@ Quantidade: -10
 
 # Alunos: [Murilo Silva Vilarouca, Joao Victor carvalho]
 
-
-
-Atualização parcial	Usamos verificações is not None
