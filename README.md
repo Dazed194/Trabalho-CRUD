@@ -106,5 +106,5 @@ Quantidade: -10
     Use o menu interativo para testar todas as funcionalidades
 
 
-# Alunos: [Murilo Silva Vilarouca, Joao Victor carvalho]
+# Alunos: [Murilo Silva Vilarouca, Joao Vitor carvalho]
 
